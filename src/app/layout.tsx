@@ -16,9 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      /* eslint-disable */
-      <body className={inter.className}>{children}</body>
-      /* eslint-enable */
+     {/* eslint-disable react/jsx-no-comment-textnodes */}
+     <body className={inter.className}>{children}</body>
+      {/* eslint-enable react/jsx-no-comment-textnodes */}
     </html>
   );
 }
