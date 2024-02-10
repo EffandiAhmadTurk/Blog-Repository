@@ -3,7 +3,7 @@ function Index() {
     return (
         <div className="container mx-auto pt-16">
             <div className="">
-                <div className=" lg:w-2/5 bg-indigo-700 py-16 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none">
+                <div className=" w-full bg-indigo-700 py-16 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none">
                     <div className=" px-8 mx-auto">
                         <h1 className="xl:text-4xl text-3xl pb-4 text-white font-bold">Get in touch</h1>
                         <p className="text-xl text-white pb-8 leading-relaxed font-normal lg:pr-4">Got a question about us? Are you interested in partnering with us? Have some suggestions or just want to say Hi? Just contact us. We are here to asset you.</p>
@@ -37,7 +37,7 @@ function Index() {
                         </a>
                     </div>
                 </div>
-                <div className="xl:w-3/5 lg:w-3/5 bg-gray-200 h-full pt-5 pb-5 xl:pr-5 xl:pl-0 rounded-tr rounded-br">
+                <div className="w-full bg-gray-200 h-full pt-5 pb-5 xl:pr-5 xl:pl-0 rounded-tr rounded-br">
                     <form id="contact" className="bg-white py-4 px-8 rounded-tr rounded-br">
                         <h1 className="text-4xl text-gray-800 font-extrabold mb-6">Enter Details</h1>
                         <div className="block xl:flex w-full flex-wrap justify-between mb-6">

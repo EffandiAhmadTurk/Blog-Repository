@@ -16,9 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-     {/* eslint-disable react/jsx-no-comment-textnodes */}
+       <script src="https://cdn.tailwindcss.com"></script>
      <body className={inter.className}>{children}</body>
-      {/* eslint-enable react/jsx-no-comment-textnodes */}
     </html>
   );
 }

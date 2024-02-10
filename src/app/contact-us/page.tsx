@@ -7,6 +7,7 @@ import FAQ from "../../../components/common/faq";
 import Footer from "../../../components/common/footer";
 import Content from "../../../components/About/content";
 import ContactForm from "../../../components/Contact/contact-form"
+import "../globals.css";
 export default function ContactUs() {
   return (
    <div>
