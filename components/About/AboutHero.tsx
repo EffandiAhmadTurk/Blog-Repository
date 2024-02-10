@@ -1,6 +1,6 @@
 import React from "react";
 
-const About3 = () => {
+const aboutHero = () => {
     return (
         <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
             <p className="font-normal text-sm leading-3 text-indigo-700 hover:text-indigo-800 cursor-pointer pb-2">About</p>
@@ -137,4 +137,4 @@ const About3 = () => {
     );
 };
 
-export default About3;
+export default aboutHero;
