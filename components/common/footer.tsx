@@ -1,7 +1,7 @@
 
 export default function Footer() {
     return (
-      <div className>
+      <div className="">
         <div className="relative flex justify-start md:justify-center md:items-end ">
           <img className="absolute object-cover top-10 h-full w-full xl:mt-10 z-0" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_5_marketing_background.png" alt="background" />
           <div className="flex pt-36 md:pt-32 lg:pt-40 xl:pt-96   px-4 md:px-6  xl:px-20 flex-col justify-start items-start md:justify-center md:items-center relative z-10">

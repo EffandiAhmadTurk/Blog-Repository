@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import { useState } from "react";
-import About3 from "../../../components/About/aboutHero";
+import About3 from "../../../components/About/AboutHero";
 import Navbar from "../../../components/common/navbar";
 import FAQ from "../../../components/common/faq";
 import Footer from "../../../components/common/footer";
