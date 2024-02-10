@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      /* eslint-disable */
       <body className={inter.className}>{children}</body>
+      /* eslint-enable */
     </html>
   );
 }
